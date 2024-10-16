@@ -43,7 +43,6 @@ def InstaLogin(username: str, password: str) -> None:
         print("[-] Invalid response.")
     login_response.close()
 
-# InstaLogin("tanya_wadkar", "hiten123")
 with open('creds.txt', encoding='utf-8') as f:
     lines = f.readlines()
     for line in lines:
